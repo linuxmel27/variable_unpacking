@@ -1,6 +1,7 @@
 from sys import argv
-name, last = argv
+f, name, last = argv
 
-print(input("Tell me whats your name?"), name)
-print(input("Tell me your lasname"), last)
+print(input("Dame un pinche dato relacionado al argumento 1: "), name)
+print(input("Dame un pinche dato relacionado al argumento 2: "), last)
 
+print("\n\n")
